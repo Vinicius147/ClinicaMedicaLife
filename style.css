@@ -1,0 +1,45 @@
+/* Estilos Globais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.limita-largura{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+ /* estilos topo */
+
+.topo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+
+}
+
+.topo-logo{
+    width: 100px;
+}
+
+.container-topo{
+    background-color: #00CAD1;
+}
+
+.topo-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.topo-links a:hover{
+    color: #0C6E71;
+}
