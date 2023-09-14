@@ -151,3 +151,14 @@ body {
     background-color: #0c6e71;
     color: white;
 }
+
+
+
+@media (max-width: 425px) {
+  .topo-links{ font-size: 12px;}
+  .secao-banner { height: 200px;}
+  .secao-banner h1 { font-size: 28px;}
+  .box-especialidade {
+    width: 100%;
+  }
+}
