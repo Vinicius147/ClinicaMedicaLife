@@ -227,3 +227,22 @@ body {
     display: none;
   }
 }
+
+/* ------------------------------------------------------ Estilos Especialidades --------------------------------------------------*/
+
+.navegacao-especialidades nav a{
+  text-decoration: none;
+  color: #0000008c;
+  border-bottom: 2px solid #00cad1;
+  margin-left: 0.5rem;
+  font-weight: 600;
+
+}
+
+.navegacao-especialidades{
+  text-align: center;
+  padding: 40px 20px 0;
+}
+.navegacao-especialidades h1{
+  padding-top: 1.5rem;
+}
