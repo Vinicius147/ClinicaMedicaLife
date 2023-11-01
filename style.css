@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+
 }
 
 main {
@@ -244,5 +246,50 @@ body {
   padding: 40px 20px 0;
 }
 .navegacao-especialidades h1{
-  padding-top: 1.5rem;
+  padding: 2.5rem 0;
+}
+
+.img-especialidades{
+  width: 20rem;
+}
+
+.container-especialidades{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.sub-especialidades{
+  padding: 3rem 3rem ;
+}
+
+table thead tr{
+  background-color: #00cad1;
+  color: #fff;
+}
+
+tr{
+  background-color: #f1f1f1;
+  color: #585757;
+  font-weight: 500;
+}
+
+ tbody tr:nth-of-type(2n+1) {
+  background-color: #cdcdcd;
+  border: 1px solid #f1f1f1;
+}
+
+tr, td, th{
+
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .img-especialidades {
+    display: none;
+  }
+
+  .navegacao-especialidades h1{
+    font-size: 20px;
+  }
 }
